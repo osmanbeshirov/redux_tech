@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 const Parent = () => {
     const arr = useSelector((state) => state);
 
-    console.log(arr)
+    // console.log(arr)
 
     return (
         <div><Child/></div>

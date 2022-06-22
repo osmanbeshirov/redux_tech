@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 const Child = () => {
 
-    const todo  = useSelector((state) => state)
+    const todo  = useSelector((state) => state.todo)
 
     console.log(todo)
 
