@@ -1,5 +1,5 @@
 
-const initial = [1,2,3]
+const initial = []
 
 
 export const todoReducer = (state = initial, action) => {
